@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.nums-cl-rsl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 225px;
+}
+
+.operator-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
