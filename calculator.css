@@ -14,6 +14,8 @@ button {
     width: 75px;
     height: 75px;
     border-radius: 5px;
+    font-size:x-large;
+    cursor: pointer;
 }
 
 .buttons {
@@ -29,5 +31,49 @@ button {
 .operator-buttons {
     display: flex;
     flex-direction: column;
+    
+}
+.operator-buttons button {
+    background-color: rgb(65, 65, 112);
+    color: aliceblue;
 }
 
+.clear-button {
+    background-color: darkred;
+    color: aliceblue;
+}
+
+.result-button {
+    background-color: rgb(255, 249, 165);
+}
+
+.display-screen {
+    width: 299px;
+    height: 60px;
+    background-color: rgba(0, 114, 51, 0.808);
+    border-radius: 5px;
+}
+
+.display-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 6.5vh;
+    font-size: 32px;
+    color: aliceblue;
+}
+
+.align {
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(192, 192, 192);
+}
+
+.error {
+    font-size: large;
+}
